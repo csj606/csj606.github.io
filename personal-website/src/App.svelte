@@ -1,47 +1,39 @@
 <script>
-  import svelteLogo from './assets/svelte.svg'
-  import viteLogo from '/vite.svg'
-  import Counter from './lib/Counter.svelte'
+
 </script>
 
+<nav>
+  <a href="index.html">About</a>
+  <a href="portfolio.html">My Projects</a>
+</nav>
+
 <main>
-  <div>
-    <a href="https://vite.dev" target="_blank" rel="noreferrer">
-      <img src={viteLogo} class="logo" alt="Vite Logo" />
-    </a>
-    <a href="https://svelte.dev" target="_blank" rel="noreferrer">
-      <img src={svelteLogo} class="logo svelte" alt="Svelte Logo" />
-    </a>
-  </div>
-  <h1>Vite + Svelte</h1>
+  <section>
 
-  <div class="card">
-    <Counter />
-  </div>
+    <!-- Intro Section -->
+    <h3> About Me </h3>
+    <p>
+      Hi, my name is Jonathan Cooper! I'm a software engineer at NISC (National Information Solutions Cooperative). At NISC, I work on
+      telecommunication solutions, specifically in provisioning. Outside of work, I'm developing projects relating
+      to networks and operating systems. In my freetime, I enjoy hiking and drawing. If you're interested in connecting with me,
+      reach out to me over on LinkedIn <a href="www.linkedin.com/in/jonathan-sch-cooper"> here </a>.
+    </p>
 
-  <p>
-    Check out <a href="https://github.com/sveltejs/kit#readme" target="_blank" rel="noreferrer">SvelteKit</a>, the official Svelte app framework powered by Vite!
-  </p>
+  </section>
 
-  <p class="read-the-docs">
-    Click on the Vite and Svelte logos to learn more
-  </p>
+  <section>
+
+    <!-- What I'm working on section -->
+     <h3> What I'm Working On </h3>
+     <p>
+      Currently I'm building out my personal website. I've wrapped up building out the NFL predictor project I've been working on, and am looking for
+      additional projects to begin working on.
+     </p>
+
+  </section>
+
 </main>
 
 <style>
-  .logo {
-    height: 6em;
-    padding: 1.5em;
-    will-change: filter;
-    transition: filter 300ms;
-  }
-  .logo:hover {
-    filter: drop-shadow(0 0 2em #646cffaa);
-  }
-  .logo.svelte:hover {
-    filter: drop-shadow(0 0 2em #ff3e00aa);
-  }
-  .read-the-docs {
-    color: #888;
-  }
+
 </style>
