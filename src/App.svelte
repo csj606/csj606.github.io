@@ -33,7 +33,3 @@
   </section>
 
 </main>
-
-<style>
-
-</style>
