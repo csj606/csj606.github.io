@@ -17,7 +17,3 @@
     </section>
 
 </main>
-
-<style>
-
-</style>
